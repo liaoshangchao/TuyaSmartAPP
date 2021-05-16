@@ -1,0 +1,54 @@
+{
+  "pages": [ 
+    "pages/home_center/device_list/index",
+    "pages/home_center/echarsDemo/index",
+    "pages/sence/index",
+    "pages/home_center/common_panel/index",
+    "pages/home_center/device_manage/index",
+    "pages/cloud_check/index",
+    "pages/function_center/device_connect/index",
+    "pages/web_view/index",
+    "pages/base_function/index",
+    "pages/home_center/index" 
+      
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Tuya智能小程序",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home_center/device_list/index",
+        "iconPath":"/image/Divece_OFF.png",
+        "selectedIconPath": "/image/Divece_ON.png",
+        "text": "设备列表"
+      },
+      {
+        "pagePath": "pages/sence/index",
+        "iconPath":"/image/Sence_OFF.png",
+        "selectedIconPath": "/image/Sence_ON.png",
+        "text": "场景"
+      },
+      {
+        "pagePath": "pages/base_function/index",
+        "iconPath":"/image/Fuction_OFF.png",
+        "selectedIconPath": "/image/Fuction_ON.png",
+        "text": "基础功能"
+      }
+
+      ],
+    "color": "0x000000",
+    "selectedColor": "0x1afa29"
+  },
+  "plugins": {
+    "tuya-ap-plugin": {
+      "version": "3.3.9",
+      "provider": "wxd2aa51ffacc3ff86"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

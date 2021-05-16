@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-icon": "@vant/weapp/icon/index",
+    "van-dialog": "@vant/weapp/dialog/index"
+  },
+  "navigationBarTitleText": "设备信息",
+  "navigationBarBackgroundColor": "#f8f8f8",
+  "navigationStyle":"default",
+  "disableScroll":true
+}
